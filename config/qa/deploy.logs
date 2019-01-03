@@ -1,0 +1,46 @@
+Writing artifacts to ./build/contracts
+
+Using network 'test'.
+
+Running migration: 1_initial_migration.js
+  Deploying Migrations...
+  Migrations:
+    (base58) TRHpqgE3ERJtQozfCacE1seXcMPU517hDH
+    (hex) 41a80f4a52eb3af72e1e8c7599e7e72dac093c9881
+Saving successful migration to network...
+Saving artifacts...
+Running migration: 2_deploy_Racers.js
+  Running step...
+Delay 20000
+  Deploying RacersCar...
+  RacersCar:
+    (base58) TRRZEeDUFNDxC4pjd9xRyD3S99ERz12USD
+    (hex) 41a98597a8e1406ca8887f059c804e331c9aa0a947
+Delay 20000
+car.initialize :: success :: undefined
+Delay 20000
+  Deploying RacersBoxFactory...
+  RacersBoxFactory:
+    (base58) THt3894QtWS5GHsGKhaqxEd15jp62C2awP
+    (hex) 4156c6ae484c2414653ed69af65f3016989dd2411e
+Delay 20000
+racersBoxFactory.initialize :: success :: undefined
+Delay 20000
+racersBoxFactory setCarContract car address 41a98597a8e1406ca8887f059c804e331c9aa0a947 :: success :: undefined
+Delay 20000
+  Deploying CarSaleAuction...
+  CarSaleAuction:
+    (base58) TSpjnaJJEFeLd9iwLtMmUpPDPXkg87ryuw
+    (hex) 41b8e017ad628a8f0e45b47cf96989b8cb69959947
+Delay 20000
+saleAuction.initialize :: success :: undefined
+Delay 20000
+  Deploying TournamentAI...
+  TournamentAI:
+    (base58) TRNHphonsibBgD3iEtaLyYUWpgLNTa6eoa
+    (hex) 41a8e77a8827575aeec54393dea776beba28816a16
+Delay 20000
+tournamentAI.initialize :: success :: undefined
+Delay 20000
+Saving successful migration to network...
+Saving artifacts...
