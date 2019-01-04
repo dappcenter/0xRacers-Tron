@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   networks: {
     test: {
-      privateKey: '1e99867131ebeeb05f2205a16ecc5d36df22f0bbbc287486f83991e76eaf7b7e',
+      privateKey: <privateKey1>,
       consume_user_resource_percent: 30,
       feeLimit: 1e9,
       originEnergyLimit: 1e7,
@@ -12,7 +12,7 @@ module.exports = {
     },
     development: {
       // For trontools/quickstart docker image
-      privateKey: '72e5ceca0e03b9ce170300b562fdd3e1680a9c76422914a083384397fdcf0a4e',
+      privateKey: <privateKey2>,
       consume_user_resource_percent: 30,
       feeLimit: 1e9,
       originEnergyLimit: 1e7,
